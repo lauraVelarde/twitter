@@ -3,26 +3,173 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Arimo', sans-serif;
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    background-size: 100%;
+    background-image: url('../assets/images/paisaje.jpeg');
 }
 
+/*styles for header*/
 header{
-    width: 100%;
-    height:100px; 
+    background: #fff;
+}
+
+header ul{
+    width: 1300px;
+    margin: 0;
+    height: 47px;
+    position: relative;
+    left: 160px;
+    top: -5px;
 }
 
 header ul li{
     list-style: none;
     display: inline-block;
+    padding:  13px 15px;
+}
+
+header ul li:hover {
+    border-bottom: 3px solid #1FC7ED;
+}
+
+header ul li a:hover{
+    color: #1FC7ED;
 }
 
 header ul li a{
     text-decoration: none;
     color: #8C9CA0;
     font-family: 'Muli', sans-serif;
-    font-size: 1.5em;
-    font-weight:400;
+    font-size: 1em;
+    font-weight:800;
 }
 
-header ul li a i{
+header ul li span{
+    font-size: 20px;
     color: #1FC7ED;
+    position: relative;
+    left: -5px;
+    top: 3px;
 }
+/*styles for section*/
+section{
+    color: #fff;
+    margin:0;
+    
+}
+/*styles for div #presentation*/
+#presentation{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width:650px ;
+    height: 300px;
+    background: #fff;
+    color: #000;
+    padding: 10px 5px 10px 10px;
+}
+
+#presentation h1{
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-top: 20px;
+    
+}
+
+#presentation p{
+    width: 470px;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-align: justify;
+}
+
+#presentation strong{
+    color: #1FC7ED;
+    font-size: 2em;
+    position: relative;
+    top: 120px;
+}
+/*styles for div #input*/
+#input{
+    display:inline-block;
+    position: relative;
+    left: 200px;
+    top: 120px;
+    background: #fff;
+}
+ 
+#tweet{
+    font-family: 'Muli', sans-serif;
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    width: 600px;
+    height: 100px;
+}
+
+#twittear{
+    display: block;
+    font-family: 'Muli', sans-serif;
+    background: #1FC7ED;
+    color: #fff;
+    border: none;
+    padding: 15px 10px;
+    
+}
+
+#twittear{
+    margin: 10px;
+}
+
+#count{
+    width: 100px;
+    color: #000;
+    position: relative;
+    left: 520px;
+    bottom: 40px;
+}
+/*styles for div twits*/
+#twits{
+    width: 85%;
+    position: relative;
+    left: 6%;
+    top:20px;
+}
+
+#twits div{
+    margin: 10px 0;
+}
+
+#twits p{
+    text-align: justify;
+    margin:5px;
+    overflow-wrap: break-word;
+}
+
+.white {
+    background: #fff;
+    border-radius: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.25em;
+    color: #000;
+    padding: 7px 10px;    
+}
+
+strong{
+    color: #05E3C2;
+}
+
+.green{
+    color: #25F011;
+}
+
+.blue{
+    color: #1D1DAA;
+}
+
+.red{
+    color: #E30505;
+}
+

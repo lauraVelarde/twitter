@@ -6,20 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Twitter. Es lo que está pasando</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/icons/twitter.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Muli:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="assets/icons/style.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
         <ul>
-            <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>Inicio</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#"><span class="icon-twitter"></span>Inicio</a></li>
+            <li><a href="https://about.twitter.com/es.html" target="_blank">Sobre nosotros</a></li>
         </ul>   
     </header>
     <section>
-
+        <div id="presentation">
+            <h1>Bienvenido a Twitter.</h1>
+            <p>Hola! Soy Laura Velarde front-end developer jr.</p>
+            <strong>CÓDIGO</strong>
+        </div>
+        <div id="input">
+            <textarea type="text" name="tweet" id="tweet" placeholder="¿Qué estas pensando?"></textarea>
+            <button id="twittear" class="btn">TWEET</button>
+            <div id="count">140</div>
+        </div>
+        <div id="twits">
+        </div>
     </section>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
